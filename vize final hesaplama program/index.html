@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>|Vize Final Hesaplama Programi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <fieldset>
+        <legend>Vize Final Geçme Notu Hesaplama Programı</legend>
+        <form action="hesaplama.php" method="post">
+            <table>
+                <tr>
+                    <td><label for="adSoyad">Ad Soyad</label></td>
+                    <td><input type="text" name="adSoyad" id="adSoyad"></td>
+                </tr>
+                <tr>
+                    <td><label for="ogrNo">OgrNo</label></td>
+                    <td><input type="text" name="ogrNo" id="ogrNo"></td>
+                </tr>
+                <tr>
+                    <td><label for="vize1">Vize 1</label></td>
+                    <td><input type="text" name="vize1" id="vize1"></td>
+                </tr>
+                <tr>
+                    <td><label for="vize2">Vize 2</label></td>
+                    <td><input type="text" name="vize2" id="vize2"></td>
+                </tr>
+                <tr>
+                    <td><label for="final">Final</label></td>
+                    <td><input type="text" name="final" id="final"></td>
+                </tr>
+            </table><br>
+            <h2 id="sonucTxt" name="sonucTxt">FF KALDI</h2>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </fieldset>
+</body>
+
+</html>
